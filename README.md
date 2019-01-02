@@ -1,11 +1,3 @@
-> |---resume
->      |---blog
->           |--10分钟学习入手Git.md
->           |--使用Markdown写文章.md
->      |---projects
->	    |--demo1.html
->      |---README.md
-
 # 简单的个人简历
 
 ## 个人信息
