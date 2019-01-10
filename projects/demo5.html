@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo5</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.layout{
+			margin: 0 auto;
+			width: 600px;
+		}
+		.layout>table{
+			margin-top: 30px;
+		}
+		.h-table{
+			border-collapse: collapse;
+			border-spacing: 0;
+			width: 100%;
+			border:1px solid #ccc;
+			text-align: left;
+		}
+		.h-table.v2 th{
+			color: #fff;
+			background-color: #4caf50;
+			padding: 8px 8px;
+			font-weight: bold;
+			text-align: left;
+		} 
+		.h-table.v1{
+			border:none;
+		}
+		.h-table.v1 th{
+			padding: 8px 8px;
+		}
+		.h-table td{
+			padding: 8px 8px;
+		}
+		.h-table tr:nth-child(2n){
+			background-color: #f1f1f1; 
+		}
+		.h-table tr{
+			border-bottom: 1px solid #ddd;
+		}
+	</style>
+</head>
+<body>
+	<div class="layout">
+		<table class="h-table v2">
+			<tbody>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Points</th>
+				</tr>
+				<tr>
+					<td>Jill</td>
+					<td>Smith</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>Eve</td>
+					<td>Jackson</td>
+					<td>94</td>
+				</tr>
+				<tr>
+					<td>Adam</td>
+					<td>Johnson</td>
+					<td>67</td>
+				</tr>
+				<tr>
+					<td>Bo</td>
+					<td>Nilsson</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>Mike</td>
+					<td>Ross</td>
+					<td>35</td>
+				</tr>
+			</tbody></table>
+		<table class="h-table v1">
+			<tbody>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Points</th>
+				</tr>
+				<tr>
+					<td>Jill</td>
+					<td>Smith</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>Eve</td>
+					<td>Jackson</td>
+					<td>94</td>
+				</tr>
+				<tr>
+					<td>Adam</td>
+					<td>Johnson</td>
+					<td>67</td>
+				</tr>
+				<tr>
+					<td>Bo</td>
+					<td>Nilsson</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>Mike</td>
+					<td>Ross</td>
+					<td>35</td>
+				</tr>
+			</tbody></table>
+	</div>
+</body>
+</html>
