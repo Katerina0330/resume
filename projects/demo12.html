@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo12</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.layout{
+			max-width: 600px;
+			margin:0 auto;
+		}
+		.clearfix::after{
+			content: '';
+			clear: both;
+			display: block;
+		}
+		.layout .left{
+			background-color:red;
+			height: 500px;
+			float: left;
+			width: 200px;
+		}
+		.layout .right{
+			background-color: blue;
+			height: 600px;
+			margin-left:210px;
+		}
+	</style>
+</head>
+<body>
+	<div class="layout clearfix"> 
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+</body>
+</html>

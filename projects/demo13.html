@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo13</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.layout{
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		.clearfix:after {
+			content:"";
+			clear:both;
+			display: block;
+		}
+		.layout .nav-left{
+			float: left;
+			width: 200px;
+			height: 300px;
+			background-color:red;
+		}
+		.layout .nav-right{
+			float: right;
+			width: 200px;
+			height: 300px;
+			background-color: blue;
+		}
+		.layout .content{
+			margin-left:210px;
+			margin-right: 210px;
+			height:500px;
+			background-color: pink;
+		}
+	</style>
+</head>
+<body>
+	<div class="layout clearfix">
+		<div class="nav-left"></div>
+		<div class="nav-right"></div>
+		<div class="content"></div>
+	</div>
+</body>
+</html>
