@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo20</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 300px;
+			height: 150px;
+			border:1px solid #eee;
+			margin: 100px;
+			position: relative;
+		}
+		.box1::after{
+			content: "";
+			position: absolute;
+			border-bottom: 20px solid #eee;
+			border-top: 20px solid transparent;
+			border-left:20px solid transparent;
+			border-right:20px solid transparent;
+			top:-40px;
+			left: 20px;
+		}
+		.box2::after{
+			content: "";
+			position: absolute;
+			border-bottom: 10px solid transparent;
+			border-top: 10px solid red;
+			border-left:10px solid transparent;
+			border-right:10px solid red;
+			top:0px;
+			right:0px;
+		}
+		.box3::after{
+			content: "";
+			position: absolute;
+			border-top: 1px solid #eee;
+			border-left:1px solid #eee;
+			width: 20px;
+			height: 20px;
+			transform: rotate(45deg);
+			background: #fff;
+			top:-10px;
+			left:20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+</body>
+</html>
